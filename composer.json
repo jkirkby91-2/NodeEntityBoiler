@@ -1,0 +1,16 @@
+{
+    "name": "jkirkby91/NodeEntityBoiler",
+    "autoload": {
+        "psr-4": {
+            "Jkirkby91\\Boilers\\NodeEntityBoiler\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jkirkby91\\Boilers\\NodeEntityBoiler\\Tests\\": "tests/"
+        }
+    }
+}
