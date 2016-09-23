@@ -11,6 +11,17 @@ namespace Jkirkby91\Boilers\NodeEntityBoiler;
 interface NodeContract
 {
     /**
+     * @return string
+     */
+    public function getNodeType();
+
+    /**
+     * @param $nodeType
+     * @return $this
+     */
+    public function setNodeType($nodeType);
+
+    /**
      * @return mixed
      */
     public function getContentChangedBy();
