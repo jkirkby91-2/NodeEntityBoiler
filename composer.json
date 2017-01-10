@@ -1,5 +1,5 @@
 {
-    "name": "jkirkby91/NodeEntityBoiler",
+    "name": "jkirkby91/nodeentityboiler",
     "autoload": {
         "psr-4": {
             "Jkirkby91\\Boilers\\NodeEntityBoiler\\": "src/"
